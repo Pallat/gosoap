@@ -65,8 +65,8 @@ type Element struct {
 
 type SequenceElement struct {
 	Element
-	MinOccurs int `xml:"minOccurs"`
-	MaxOccurs int `xml:"maxOccurs"`
+	MinOccurs int    `xml:"minOccurs"`
+	MaxOccurs string `xml:"maxOccurs"`
 }
 
 type Sequence struct {

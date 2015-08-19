@@ -223,7 +223,7 @@ func testUnmarshalAttributeElementInComplexTypeSchema(t *testing.T, definition D
 				Type: "xsd:string",
 			},
 			MinOccurs: 0,
-			MaxOccurs: 1,
+			MaxOccurs: "1",
 		},
 		SequenceElement{
 			Element: Element{
@@ -231,7 +231,7 @@ func testUnmarshalAttributeElementInComplexTypeSchema(t *testing.T, definition D
 				Type: "xsd:string",
 			},
 			MinOccurs: 0,
-			MaxOccurs: 1,
+			MaxOccurs: "1",
 		},
 		SequenceElement{
 			Element: Element{
@@ -239,7 +239,7 @@ func testUnmarshalAttributeElementInComplexTypeSchema(t *testing.T, definition D
 				Type: "xsd:string",
 			},
 			MinOccurs: 0,
-			MaxOccurs: 1,
+			MaxOccurs: "1",
 		},
 		SequenceElement{
 			Element: Element{
@@ -247,7 +247,7 @@ func testUnmarshalAttributeElementInComplexTypeSchema(t *testing.T, definition D
 				Type: "xsd:string",
 			},
 			MinOccurs: 0,
-			MaxOccurs: 1,
+			MaxOccurs: "1",
 		},
 		SequenceElement{
 			Element: Element{
@@ -255,7 +255,7 @@ func testUnmarshalAttributeElementInComplexTypeSchema(t *testing.T, definition D
 				Type: "xsd:string",
 			},
 			MinOccurs: 0,
-			MaxOccurs: 1,
+			MaxOccurs: "1",
 		},
 		SequenceElement{
 			Element: Element{
@@ -263,7 +263,7 @@ func testUnmarshalAttributeElementInComplexTypeSchema(t *testing.T, definition D
 				Type: "xsd:string",
 			},
 			MinOccurs: 0,
-			MaxOccurs: 1,
+			MaxOccurs: "1",
 		},
 	}
 
