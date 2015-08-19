@@ -59,8 +59,10 @@ type PortType struct {
 }
 
 type Element struct {
-	Name string `xml:"name,attr"`
-	Type string `xml:"type,attr"`
+	Name      string `xml:"name,attr"`
+	Type      string `xml:"type,attr"`
+	MinOccurs int    `xml:"minOccurs,attr"`
+	MaxOccurs string `xml:"maxOccurs,attr"`
 }
 
 type SequenceElement struct {
